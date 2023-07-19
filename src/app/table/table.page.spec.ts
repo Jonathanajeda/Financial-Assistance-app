@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { ApplicationPage } from './application.page';
+import { TablePage } from './table.page';
 
-describe('CustomerServiceManagePage', () => {
-  let component: ApplicationPage;
-  let fixture: ComponentFixture<ApplicationPage>;
+describe('TablePage', () => {
+  let component: TablePage;
+  let fixture: ComponentFixture<TablePage>;
 
   beforeEach(waitForAsync(() => {
-    fixture = TestBed.createComponent(ApplicationPage);
+    fixture = TestBed.createComponent(TablePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

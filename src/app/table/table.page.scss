@@ -1,0 +1,23 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.dswd-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dswd-table th,
+.dswd-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.dswd-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
